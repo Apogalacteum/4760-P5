@@ -5,17 +5,9 @@
 #include <sys/shm.h>
 #include <sys/ipc.h>
 
-struct processControlBlock
-{
-	pid_t pid;
-	long state;
-	unsigned int totalCPUTime;
-	unsigned int totalSysTime;
-	unsigned int lastBurstTime;
-	int pPriority;
-};
+#define SHMKEY 859047
 
-
+using namespace std;
 
 int main()
 {

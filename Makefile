@@ -1,8 +1,8 @@
-oss: Project4Main.c
-	gcc Project4Main.c -o oss
+oss: Project5Main.c
+	gcc Project5Main.c -o oss
 
-userP: Project4UserP.c
-	gcc Project4UserP.c -o userP
+userP: Project5UserP.c
+	gcc Project5UserP.c -o userP
 
 clean:
 	rm oss
